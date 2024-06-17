@@ -26,7 +26,7 @@ export default function Root() {
         <Suspense>
           <ErrorBoundary>
             <A href="/">Index</A>
-            <A href="/about">About</A>
+            <A href="https://google.com>Google</A>
             <Routes>
               <FileRoutes />
             </Routes>
