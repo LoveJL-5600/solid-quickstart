@@ -26,7 +26,7 @@ export default function Root() {
         <Suspense>
           <ErrorBoundary>
             <A href="/">Index</A>
-            <A href="https://google.com">Google</A>
+            <A href="https://casey-test.netlify.app/">Casey's Page</A>
             <Routes>
               <FileRoutes />
             </Routes>
