@@ -28,7 +28,7 @@ export default function Root() {
             <A href="/">Index</A>
             <A href="https://casey-test.netlify.app/">Casey's Page</A>
             <A href="mailto:LoveJL@ornl.gov">Email Us</A>
-            <A href="tel:+18652435736">Call Us</A>
+            <A href="tel:+8652435736">Call Us</A>
             <Routes>
               <FileRoutes />
             </Routes>
