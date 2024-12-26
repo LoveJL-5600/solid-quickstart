@@ -26,8 +26,8 @@ export default function Root() {
         <Suspense>
           <ErrorBoundary>
             <A href="/">Index</A>
-            <A href="https://casey-test.netlify.app/">Casey's Page</A>
-             <A href="https://ornlCustom.gov/">customeScheme Test</A>
+            <A href="http://casey-test.netlify.app/">Casey's Page</A>
+             <A href="http:/gis.test.com/">customeScheme Test</A>
             <A href="mailto://LoveJL@ornl.gov">Email Us</A>
             <A href="tel://+18655766992">Call Us</A>
             <Routes>
