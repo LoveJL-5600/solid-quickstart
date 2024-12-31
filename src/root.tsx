@@ -31,8 +31,8 @@ export default function Root() {
             <A href="mailto://LoveJL@ornl.gov">Email Us</A>
             <A href="tel://+18655766992">Call Us</A>
 
-            /* Add the button here */
-            //<button type="button" onclick="alert('Hello John, This is an alert!')">Show Alert</button>
+            
+            
             
             <Routes>
               <FileRoutes />
