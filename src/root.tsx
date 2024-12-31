@@ -17,9 +17,9 @@ import "./root.css";
 export default function Root() {
 
 // Define the function to show the alert
-  const showAlert = () => {
-    alert('Button clicked! This is an alert.');
-  };
+  //const showAlert = () => {
+    //alert('Button clicked! This is an alert.');
+  //};
 
   
   return (
