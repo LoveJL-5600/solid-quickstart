@@ -32,7 +32,7 @@ export default function Root() {
             <A href="tel://+18655766992">Call Us</A>
 
             /* Add the button here */
-            /* <button type="button" onclick="alert('Hello John, This is an alert!')">Show Alert</button> */
+            //<button type="button" onclick="alert('Hello John, This is an alert!')">Show Alert</button>
             
             <Routes>
               <FileRoutes />
