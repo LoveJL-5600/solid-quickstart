@@ -15,13 +15,6 @@ import {
 import "./root.css";
 
 export default function Root() {
-
-// Define the function to show the alert
-  //const showAlert = () => {
-    //alert('Button clicked! This is an alert.');
-  //};
-
-  
   return (
     <Html lang="en">
       <Head>
@@ -39,7 +32,6 @@ export default function Root() {
             <A href="tel://+18655766992">Call Us</A>
 
             /* Add the button here */
-            //<button onclick={showAlert}>Show Alert</button>
             <button type="button" onclick="alert('Hello John, This is an alert!')">Show Alert</button>
             
             <Routes>
