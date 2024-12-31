@@ -40,7 +40,7 @@ export default function Root() {
 
             /* Add the button here */
             //<button onclick={showAlert}>Show Alert</button>
-            <button type="button" onclick="alert('Hello World')">Show Alert</button>
+            <button type="button" onclick="alert('Hello John, This is an alert!')">Show Alert</button>
             
             <Routes>
               <FileRoutes />
