@@ -15,6 +15,13 @@ import {
 import "./root.css";
 
 export default function Root() {
+
+// Define the function to show the alert
+  const showAlert = () => {
+    alert('Button clicked! This is an alert.');
+  };
+
+  
   return (
     <Html lang="en">
       <Head>
@@ -30,6 +37,11 @@ export default function Root() {
              <A href="https://gis-6500-test.netlify.app/">GisScheme Test</A>
             <A href="mailto://LoveJL@ornl.gov">Email Us</A>
             <A href="tel://+18655766992">Call Us</A>
+
+            /* Add the button here */
+            <button onclick={showAlert}>Show Alert</button>
+
+            
             <Routes>
               <FileRoutes />
             </Routes>
