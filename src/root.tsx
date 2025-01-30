@@ -15,6 +15,14 @@ import {
 import "./root.css";
 
 export default function Root() {
+
+  function openExternalUrl2(url) {
+    if (window.getSelection().toString().length == 0)
+      window.open(url);
+  }
+
+
+  
   return (
     <Html lang="en">
       <Head>
@@ -25,13 +33,12 @@ export default function Root() {
       <Body>
         <Suspense>
           <ErrorBoundary>
-            <A href="/">Index</A>
-            <A href="http://casey-test.netlify.app/">Casey's Page</A>
-             <A href="https://gis-6500-test.netlify.app/">GisScheme Test</A>
-            <A href="mailto://LoveJL@ornl.gov">Email Us</A>
-            <A href="tel://+18655766992">Call Us</A>
-
             
+          <a href="/" onClick={(e) => { e.preventDefault(); openExternalUrl2('/'); }}>Index</a>
+            <a href="http://casey-test.netlify.app/" onClick={(e) => { e.preventDefault(); openExternalUrl2('http://casey-test.netlify.app/'); }}>Casey's Page</a>
+            <a href="https://gis-6500-test.netlify.app/" onClick={(e) => { e.preventDefault(); openExternalUrl2('https://gis-6500-test.netlify.app/'); }}>GisScheme Test</a>
+            <a href="mailto:LoveJL@ornl.gov">Email Us</a>
+            <a href="tel:+18655766992">Call Us</a>                      
             
             
             <Routes>
