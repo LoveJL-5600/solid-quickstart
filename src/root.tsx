@@ -18,7 +18,7 @@ export default function Root() {
 
   function openExternalUrl2(url) {
     if (window.getSelection().toString().length == 0)
-      window.open(url, "_self");
+      window.open(url, "_blank");
   }
 
 
