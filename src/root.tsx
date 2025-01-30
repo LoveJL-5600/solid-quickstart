@@ -40,7 +40,10 @@ export default function Root() {
             <A href="mailto://LoveJL@ornl.gov">Email Us</A>
             <A href="tel://+18655766992">Call Us</A>
                   
-            
+           
+            <a href="http://casey-test.netlify.app/" onClick={(e) => { e.preventDefault(); openExternalUrl2('http://casey-test.netlify.app/'); }}>Casey's Page External</a>
+            <a href="https://gis-6500-test.netlify.app/" onClick={(e) => { e.preventDefault(); openExternalUrl2('https://gis-6500-test.netlify.app/'); }}>GisScheme Test External</a>
+           
             
             <Routes>
               <FileRoutes />
