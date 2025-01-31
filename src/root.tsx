@@ -43,7 +43,7 @@ export default function Root() {
            
             <a href="http://casey-test.netlify.app/" onClick={(e) => { e.preventDefault(); openExternalUrl2('http://casey-test.netlify.app/'); }}>Casey's Page External</a>
             <a href="https://gis-6500-test.netlify.app/" onClick={(e) => { e.preventDefault(); openExternalUrl2('https://gis-6500-test.netlify.app/'); }}>GisScheme Test External</a>
-            <a href="https://iosfeeds.com" target="_blank" >iOS Feeds</a>
+            <a href="https://apple.com" target="_blank" >Apple</a>
             
             <Routes>
               <FileRoutes />
